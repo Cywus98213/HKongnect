@@ -1,6 +1,6 @@
-# Kongnect
+# HKongnect
 
-Kongnect is a platform designed to unite Hong Kongers living in Canada through community meetups and events.
+HKongnect is a platform designed to unite Hong Kongers living in Canada through community meetups and events.
 
 ## Features
 
@@ -17,4 +17,3 @@ Contributions are welcome! If you have any ideas for improvements or find any is
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
