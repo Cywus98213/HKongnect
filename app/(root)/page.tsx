@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-      <section className="bg-primary/20 py-5 md:py-10">
+      <section className="bg-primary/5 py-5 md:py-10">
         <div className="wrapper">
           <div className="flex flex-col gap-8 justify-center">
             <h1 className="h1-bold">
