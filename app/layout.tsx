@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { Roboto } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
+import { ClerkProvider } from "@clerk/nextjs";
 
-const roboto = Roboto({
-  weight: ['400','500','700'],
-  subsets: ['latin'],
-})
+const inter = Inter({
+  subsets: ["latin"],
+});
 export const metadata: Metadata = {
   title: "HKCA-Event",
   description: "HKCA-Event is a event platform for HongKonger",
@@ -17,8 +17,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={roboto.className}>{children}</body>
-    </html>
+    <ClerkProvider>
+      <html lang="en">
+        <body className={inter.className}>{children}</body>
+      </html>
+    </ClerkProvider>
   );
 }
